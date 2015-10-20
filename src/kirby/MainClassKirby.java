@@ -11,7 +11,7 @@ import environment.ApplicationStarter;
  *
  * @author Camille
  */
-public class Kirby {
+public class MainClassKirby {
 
     /**
      * @param args the command line arguments
