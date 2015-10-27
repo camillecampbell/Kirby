@@ -17,7 +17,7 @@ public class MainClassKirby {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    ApplicationStarter.run("Kirby", new CharacterEnvironment());
+        ApplicationStarter.run("Kirby", new CharacterEnvironment());
     }
-    
+
 }

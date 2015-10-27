@@ -18,7 +18,7 @@ class CharacterEnvironment extends Environment {
     private KirbyClass bro;
 
     public CharacterEnvironment() {
-        bro = new KirbyClass(100, 100);
+        bro = new KirbyClass(100, 100, 400, 400);
     }
 
     @Override
@@ -50,7 +50,6 @@ class CharacterEnvironment extends Environment {
     public void paintEnvironment(Graphics graphics) {
         if (bro != null) {
             bro.draw(graphics);
-            
         }
     }
     
