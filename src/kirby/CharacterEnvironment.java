@@ -6,6 +6,7 @@
 package kirby;
 
 import environment.Environment;
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
@@ -15,10 +16,13 @@ import java.awt.event.MouseEvent;
  * @author Camille
  */
 class CharacterEnvironment extends Environment {
-    private KirbyClass bro;
+    private KirbyClass bro, yo;
+   
 
     public CharacterEnvironment() {
-        bro = new KirbyClass(100, 100, 400, 400);
+        bro = new KirbyClass(300, 100, 400, 400);
+        this.setBackground(Color.white);
+        yo = new KirbyClass(50, 50, 200, 200);
     }
 
     @Override
@@ -50,6 +54,9 @@ class CharacterEnvironment extends Environment {
     public void paintEnvironment(Graphics graphics) {
         if (bro != null) {
             bro.draw(graphics);
+        }
+        if (yo != null) {
+            yo.draw(graphics);
         }
     }
     
