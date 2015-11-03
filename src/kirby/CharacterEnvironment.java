@@ -22,7 +22,7 @@ class CharacterEnvironment extends Environment {
     public CharacterEnvironment() {
         bro = new KirbyClass(300, 100, 400, 400);
         this.setBackground(Color.white);
-        yo = new KirbyClass(50, 50, 200, 200);
+        //yo = new KirbyClass(50, 50, 200, 200);
     }
 
     @Override

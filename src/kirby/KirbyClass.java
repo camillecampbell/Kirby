@@ -88,6 +88,18 @@ public class KirbyClass {
         //Message
         //graphics.setColor(Color.green);
         //graphics.drawString("Happy Birthday!", x +(width *1/3), y + (height * 19/20));
+        
+        //Sparkles
+//        if (Math.random() > .7){
+//            graphics.setColor(Color.yellow);
+//            graphics.fillPolygon(xPoints, yPoints, width);
+//        } else {
+//            graphics.setColor(Color.GREEN);
+//            graphics.fillPolygon(xPoints, yPoints, width);
+//        }
+        
+    
+        
        
         //foot 2 over body Leave this last it has a rotation!
         graphics.setColor(new Color(220, 20, 60));
