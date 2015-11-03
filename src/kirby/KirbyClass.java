@@ -89,8 +89,30 @@ public class KirbyClass {
         //graphics.setColor(Color.green);
         //graphics.drawString("Happy Birthday!", x +(width *1/3), y + (height * 19/20));
         
-        //Sparkles
-//        if (Math.random() > .7){
+        //Sparkles not working yet
+        int[] xValues = new int[8];
+        xValues[0] = ((width * 90/100));
+        xValues[1] = ((width * 93/100));
+        xValues[2] = ((width * 95/100));
+        xValues[3] = ((width * 97/100));
+        xValues[4] = ((width * 99/100));
+        xValues[5] = ((width * 97/100));
+        xValues[6] = ((width * 95/100));
+        xValues[7] = ((width * 93/100));
+        xValues[8] = ((width * 90/100));
+        
+        int[] yValues = new int [8];
+        yValues[0] = ((height * 95/100));
+        yValues[1] = ((height * 97/100));
+        yValues[2] = ((height * 99/100));
+        yValues[3] = ((height * 97/100));
+        yValues[4] = ((height * 95/100));
+        yValues[5] = ((height * 93/100));
+        yValues[6] = ((height * 90/100));
+        yValues[7]
+        
+        
+        //if (Math.random() > .5){
 //            graphics.setColor(Color.yellow);
 //            graphics.fillPolygon(xPoints, yPoints, width);
 //        } else {
